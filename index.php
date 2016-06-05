@@ -66,10 +66,21 @@
 </head>
 <body>
 
-<div class="container" id="form">
-  
+<div class="container">
+  <div class="row">
+    <div id="form"> 
+      <div class="col-sm-6">
+        <label for="title">Title:</label>
+        <input type="text" class="form-control" id="title"> 
+      </div> 
+      <div class="col-sm-6">
+        <label for="dvd">Date:</label>
+        <input type="date" class="form-control" id="dvd"> 
+      </div> 
+    </div>
+  </div>
+  <div id="list"></div>
 </div>
-<div class="container" id="list"></div>
 
 </body>
 </html>
